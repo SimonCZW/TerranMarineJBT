@@ -1,0 +1,44 @@
+<Domain package="mypackage">
+  <ActionSet>
+    <!-- Orders the current unit to attack another unit -->
+    <Action  name="Attack">
+      <Parameter name="target" type="ENTITY_ID"/>
+    </Action>
+    
+    <!-- Orders the current unit to go to a target position -->
+    <Action  name="Move">
+      <Parameter name="target" type="COORDINATE"/>
+    </Action>
+    
+    <!-- Orders the current unit to go to a target position. If an enemy is found along the way, the unit will combat him -->
+    <Action name="AttackMove">
+      <Parameter name="target" type="COORDINATE"/>
+    </Action>
+
+    <!-- Orders the position of the base that is closest to the current unit -->
+    <Action name="ComputeClosestBasePosition"/>
+    
+    <!-- Computes the position of the current unit -->
+    <Action  name="ComputeCharacterPosition"/>
+    
+    <!-- Computes a random position that is close to the input position -->
+    <Action name="ComputeRandomClosePosition">
+      <Parameter name="initialPosition" type="COORDINATE"/>
+    </Action>
+  </ActionSet>
+  
+  <SensorSet>
+    <!-- Checks if the current unit is in a low danger situation -->
+    <Sensor name="LowDanger" type="BOOLEAN"/>
+    
+    <!-- Checks if the current unit is in a high danger situation -->
+    <Sensor name="HighDanger" type="BOOLEAN"/>
+  </SensorSet>
+  
+  <EntitySet>
+  </EntitySet>
+  
+  <GoalSet>
+  </GoalSet>
+</Domain>
+

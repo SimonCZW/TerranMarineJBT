@@ -1,0 +1,11 @@
+<Configuration>
+  <DomainFile>TerranMarineDomain.xml</DomainFile>
+  <ModelActionsPackage>bts.actions</ModelActionsPackage>
+  <ModelConditionsPackage>bts.conditions</ModelConditionsPackage>
+  <ModelActionsOutputDirectory>src/bts/actions</ModelActionsOutputDirectory>
+  <ModelConditionsOutputDirectory>src/bts/conditions</ModelConditionsOutputDirectory>
+  <ExecutionActionsPackage>bts.actions.execution</ExecutionActionsPackage>
+  <ExecutionConditionsPackage>bts.conditions.execution</ExecutionConditionsPackage>
+  <ExecutionActionsOutputDirectory>src/bts/actions/execution</ExecutionActionsOutputDirectory>
+  <ExecutionConditionsOutputDirectory>src/bts/conditions/execution</ExecutionConditionsOutputDirectory>
+</Configuration>

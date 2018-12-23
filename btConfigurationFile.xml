@@ -1,0 +1,12 @@
+<Configuration>
+	<BTLibrary>
+	    <BTFile>TerranMarine.xbt</BTFile>
+	    <BTFile>StandardPatrol.xbt</BTFile>
+	    <LibraryClassName>TerranMarineBTLibrary</LibraryClassName>
+	    <LibraryPackage>bts.btlibrary</LibraryPackage>
+	    <LibraryOutputDirectory>src/bts/btlibrary</LibraryOutputDirectory>
+	    <DomainFile>TerranMarineDomain.xml</DomainFile>
+			<ModelActionsPackage>bts.actions</ModelActionsPackage>
+	    <ModelConditionsPackage>bts.conditions</ModelConditionsPackage>
+  	</BTLibrary>
+</Configuration>
